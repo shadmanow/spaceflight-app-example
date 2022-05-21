@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/spaceflight-app-example/static/css/main.a1b21655.css",
+    "main.js": "/spaceflight-app-example/static/js/main.0b9558e8.js",
+    "static/media/user.jpg": "/spaceflight-app-example/static/media/user.918f8cfcd6f47f30754e.jpg",
+    "index.html": "/spaceflight-app-example/index.html",
+    "main.a1b21655.css.map": "/spaceflight-app-example/static/css/main.a1b21655.css.map",
+    "main.0b9558e8.js.map": "/spaceflight-app-example/static/js/main.0b9558e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a1b21655.css",
+    "static/js/main.0b9558e8.js"
+  ]
+}

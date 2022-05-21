@@ -1,0 +1,49 @@
+.news-page {
+  width: 100%;
+  margin-bottom: 30px;
+
+  .news-item {
+    cursor: auto;
+    grid-template-rows: 20px 10px 1fr auto;
+    grid-row-gap: 10px;
+
+    &__title {
+      grid-column: 1 / -1;
+      grid-row: 1 / 1;
+    }
+
+    &__date {
+      text-align: left;
+      grid-column: 1 / -1;
+      grid-row: 2 / 2;
+    }
+
+    &__image {
+      grid-column: 1 / -1;
+      grid-row: 3 / 3;
+      padding: 0;
+
+      img {
+        max-height: 100%;
+      }
+    }
+
+    &__summary {
+      font-size: 12px;
+      grid-column: 1 / -1;
+      grid-row: 4 / 4;
+    }
+
+    &:hover {
+      box-shadow: none;
+    }
+  }
+
+  &__link, &__link:visited {
+    color: deepskyblue;
+  }
+
+  &__link:hover {
+    color: dodgerblue;
+  }
+}
